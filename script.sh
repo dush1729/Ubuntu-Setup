@@ -18,6 +18,14 @@ sudo apt-get install icedtea-netx
 cd ~
 wget www.topcoder.com/contest/arena/ContestAppletProd.jnlp -O Topcoder.jnlp
 
+#web dev
+sudo apt install nodejs
+sudo apt install npm
+sudo npm install -g nodemon 
+sudo apt install mongodb-clients
+sudo apt install mongodb-server-core
+sudo mkdir -p /data/db
+
 #competitive programming setup
 cd ~
 mkdir cp
