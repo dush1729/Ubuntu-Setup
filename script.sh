@@ -10,6 +10,13 @@ wget https://raw.githubusercontent.com/dush1729/dotfiles/master/home/.bashrc
 #languages setup
 sudo apt install g++
 sudo apt install python-minimal
+#topcoder setup
+sudo apt-get install openjdk-8-jdk
+sudo apt-get install openjdk-8-source
+sudo apt-get install default-jre
+sudo apt-get install icedtea-netx
+cd ~
+wget www.topcoder.com/contest/arena/ContestAppletProd.jnlp -O Topcoder.jnlp
 
 #competitive programming setup
 cd ~
@@ -23,6 +30,9 @@ mkdir bits
 cd bits
 wget https://raw.githubusercontent.com/dush1729/Competitive-Programming/master/stdc%2B%2B.h
 g++ -std=c++17 stdc++.h
+
+#fix firefox facebook video bug
+sudo apt-get install ubuntu-restricted-extras
 
 #generate ssh key for github
 ssh-keygen
