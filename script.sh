@@ -27,6 +27,7 @@ sudo npm install -gy nodemon
 sudo apt install mongodb-clients -y
 sudo apt install mongodb-server-core -y
 sudo mkdir -p /data/db
+sudo snap install --classic code
 
 #competitive programming setup
 cd ~
