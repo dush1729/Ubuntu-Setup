@@ -30,6 +30,7 @@ sudo mkdir -p /data/db
 
 #competitive programming setup
 cd ~
+rm -rf cp/
 mkdir cp
 cd cp
 wget https://raw.githubusercontent.com/dush1729/Competitive-Programming/master/00.cpp
