@@ -45,3 +45,6 @@ g++ -std=c++17 stdc++.h
 
 #fix firefox facebook video bug
 sudo apt-get install ubuntu-restricted-extras -y
+
+#fix dual boot time bug
+timedatectl set-local-rtc 1 --adjust-system-clock
