@@ -1,8 +1,8 @@
 #install sublime
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt-get update
-sudo apt-get install sublime-text
+sudo apt-get update -y
+sudo apt-get install sublime-text -y
 
 #terminal setup
 cd ~
@@ -10,22 +10,22 @@ rm ~/.bashrc
 wget https://raw.githubusercontent.com/dush1729/dotfiles/master/home/.bashrc
 
 #languages setup
-sudo apt install g++
-sudo apt install python-minimal
+sudo apt install g++ -y
+sudo apt install python-minimal -y
 #topcoder setup
-sudo apt-get install openjdk-8-jdk
-sudo apt-get install openjdk-8-source
-sudo apt-get install default-jre
-sudo apt-get install icedtea-netx
+sudo apt-get install openjdk-8-jdk -y
+sudo apt-get install openjdk-8-source -y
+sudo apt-get install default-jre -y
+sudo apt-get install icedtea-netx -y
 cd ~
 wget www.topcoder.com/contest/arena/ContestAppletProd.jnlp -O Topcoder.jnlp
 
 #web dev
-sudo apt install nodejs
-sudo apt install npm
-sudo npm install -g nodemon 
-sudo apt install mongodb-clients
-sudo apt install mongodb-server-core
+sudo apt install nodejs -y
+sudo apt install npm -y
+sudo npm install -gy nodemon 
+sudo apt install mongodb-clients -y
+sudo apt install mongodb-server-core -y
 sudo mkdir -p /data/db
 
 #competitive programming setup
@@ -42,7 +42,4 @@ wget https://raw.githubusercontent.com/dush1729/Competitive-Programming/master/s
 g++ -std=c++17 stdc++.h
 
 #fix firefox facebook video bug
-sudo apt-get install ubuntu-restricted-extras
-
-#generate ssh key for github
-ssh-keygen
+sudo apt-get install ubuntu-restricted-extras -y
