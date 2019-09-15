@@ -6,6 +6,7 @@ sudo apt-get install sublime-text
 
 #terminal setup
 cd ~
+rm ~/.bashrc
 wget https://raw.githubusercontent.com/dush1729/dotfiles/master/home/.bashrc
 
 #languages setup
