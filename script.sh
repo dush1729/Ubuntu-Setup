@@ -48,3 +48,5 @@ sudo apt-get install ubuntu-restricted-extras -y
 
 #fix dual boot time bug
 timedatectl set-local-rtc 1 --adjust-system-clock
+
+sudo apt-get install deluge -y
