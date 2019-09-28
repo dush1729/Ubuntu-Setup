@@ -9,6 +9,10 @@ cd ~
 rm ~/.bashrc
 wget https://raw.githubusercontent.com/dush1729/dotfiles/master/home/.bashrc
 
+#git
+sudo apt install git -y
+git config --global user.email "dush1729@gmail.com"
+git config --global user.name dush1729
 #languages setup
 sudo apt install g++ -y
 sudo apt install python-minimal -y
@@ -50,3 +54,4 @@ sudo apt-get install ubuntu-restricted-extras -y
 timedatectl set-local-rtc 1 --adjust-system-clock
 
 sudo apt-get install deluge -y
+sudo apt install gnome-tweak-tool
