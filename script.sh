@@ -16,6 +16,8 @@ git config --global user.name dush1729
 #languages setup
 sudo apt install g++ -y
 sudo apt install python-minimal -y
+sudo apt install vim -y
+sudo apt install vim-gnome -y
 #topcoder setup
 sudo apt-get install openjdk-8-jdk -y
 sudo apt-get install openjdk-8-source -y
@@ -31,7 +33,9 @@ sudo npm install -gy nodemon
 sudo apt install mongodb-clients -y
 sudo apt install mongodb-server-core -y
 sudo mkdir -p /data/db
+sudo chmod +x /data/db
 sudo snap install --classic code
+sudo apt install curl -y
 
 #competitive programming setup
 cd ~
@@ -55,3 +59,6 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 
 sudo apt-get install deluge -y
 sudo apt install gnome-tweak-tool
+sudo apt install vokoscreen -y
+sudo apt install pastebinit -y
+sudo apt install xsel -y
