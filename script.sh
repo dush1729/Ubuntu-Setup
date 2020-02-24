@@ -7,7 +7,7 @@ sudo apt-get install sublime-text -y
 #terminal setup
 cd ~
 rm ~/.bashrc
-wget https://raw.githubusercontent.com/dush1729/dotfiles/master/home/.bashrc
+wget https://raw.githubusercontent.com/dush1729/dotfiles/master/.bashrc
 
 #git
 sudo apt install git -y
@@ -42,13 +42,13 @@ cd ~
 rm -rf cp/
 mkdir cp
 cd cp
-wget https://raw.githubusercontent.com/dush1729/Competitive-Programming/master/00.cpp
-wget https://raw.githubusercontent.com/dush1729/Competitive-Programming/master/r.py
+wget https://raw.githubusercontent.com/dush1729/cp/master/library/templates/00.cpp
+wget https://raw.githubusercontent.com/dush1729/cp/master/library/templates/r.py
 python2 r.py 1 10
 python2 r.py 50 55 py
 mkdir bits
 cd bits
-wget https://raw.githubusercontent.com/dush1729/Competitive-Programming/master/stdc%2B%2B.h
+wget https://raw.githubusercontent.com/dush1729/cp/master/library/templates/stdc%2B%2B.h
 g++ -std=c++17 stdc++.h
 
 #fix firefox facebook video bug
