@@ -44,6 +44,7 @@ mkdir cp
 cd cp
 wget https://raw.githubusercontent.com/dush1729/cp/master/library/templates/00.cpp
 wget https://raw.githubusercontent.com/dush1729/cp/master/library/templates/r.py
+wget https://raw.githubusercontent.com/dush1729/cp/master/library/templates/leetcode.cpp
 python2 r.py 1 10
 python2 r.py 50 55 py
 mkdir bits
